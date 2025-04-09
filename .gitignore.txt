@@ -1,3 +1,5 @@
 tools/
 ubuntu-25.04-beta-desktop-amd64.iso
 winhex.exe
+
+*tool
