@@ -1,7 +1,9 @@
 # 针对目标[192.168.17.131]的信息收集报告
 
 侦察日期： [2025/11/25]
+
 报告作者： [白初]
+
 目标说明： [搜集目标靶机相关信息]
 
 ## 执行摘要
@@ -14,7 +16,7 @@
 
 #### whois
 
-![](/Photos/D7_1.png)
+![](./Photos/D7_1.png)
 ```
 #
 # ARIN WHOIS data and services are subject to the Terms of Use
@@ -43,7 +45,7 @@ Ref:            https://rdap.arin.net/registry/ip/192.168.0.0
 
 
 #### nslookup
-![](/Photos/D7_3.png)
+![](./Photos/D7_3.png)
 
 NXDOMAIN
 
@@ -51,7 +53,7 @@ NXDOMAIN
 
 #### dig
 
-![](/Photos/D7_2.png)
+![](./Photos/D7_2.png)
 
 
 | 段落 | 关键信息 | 本例结论 |
@@ -81,18 +83,18 @@ NXDOMAIN
 
 #### ping
 
-![](/Photos/D7_4.png)
+![](./Photos/D7_4.png)
 
 结论:能ping通，主机存活
 
 #### masscan
 
-![](/Photos/D7_6.png)
+![](./Photos/D7_6.png)
 
 简单扫了1000个常用的端口缩小侦察范围
 
 #### scan
-![](/Photos/D7_5.png)
+![](./Photos/D7_5.png)
 
 扫描版本号以及开放端口，获取更详细的信息
 
